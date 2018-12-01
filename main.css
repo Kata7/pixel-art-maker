@@ -3,13 +3,7 @@ body {
     flex-direction: column;
     width: 80%;
     margin: auto;
-    border: 5px solid red;
     align-content: center;
-}
-.container {
-    display: flex;
-    flex-direction: column;
-    height: 95vh;
 }
 
 div {
@@ -17,28 +11,10 @@ div {
     border: 1px solid black;
 }
 
-
-
-#canvas {
+.container {
     display: flex;
     flex-direction: column;
-    align-content: center;
-    height: 100%;
-    width: 100%;
-
-}
-
-#canvas .row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    border: none;
-    width: 100%;
-}
-
-#canvas div {
-    height: 5vh;
-    width: 5vh;
+    height: 95vh;
 }
 
 .palette {
@@ -46,21 +22,6 @@ div {
     width: 80vh;
     display: flex;
     flex-direction: column;
-}
-
-
-.colors {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    height: 50%;
-    width: 100%;
-    align-content: center;
-}
-
-.colors div {
-    height: 100%;
-    width: 50px;
 }
 
 .black {
@@ -103,7 +64,42 @@ div {
     background-color: white;
 }
 
+.colors {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50%;
+    width: 100%;
+    align-content: center;
+}
+
+.colors div {
+    height: 100%;
+    width: 50px;
+}
+
 #selection {
     width: 100%;
     height: 50%;
+}
+
+#canvas {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+#canvas div {
+    height: 5vh;
+    width: 5vh;
+}
+
+#canvas .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: none;
+    width: 100%;
 }
